@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 
-class AutoEncoder:
+class Model:
     def __init__(self, params):
         num_input, num_hidden, b_norm = params['num_input'], params['num_hidden'], params['batch_normalisation']
 

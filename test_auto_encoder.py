@@ -1,5 +1,5 @@
 from auto_encoder.Estimation import Process
-from auto_encoder.AutoEncoder import AutoEncoder
+from auto_encoder.AutoEncoder import Model
 from keras.datasets import mnist
 from sklearn.preprocessing import MinMaxScaler
 
@@ -11,6 +11,6 @@ if __name__ == '__main__':
         'num_hidden': [392, 196, 98, 49],
         'batch_normalisation': True
     }
-    encoder = AutoEncoder(params)
+    encoder = Model(params)
     process = Process(buff, {'epochs': 10, 'batch_size': 250})
     process.run(encoder)
