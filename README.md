@@ -16,4 +16,5 @@ Versions: TensorFlow - 1.6.0 ; Keras - 2.1.4 (tensorflow as backend)
 	* [Inspirational code](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py)
 * Sequence to sequence
 	* [Seq2Seq Tensorflow](https://www.tensorflow.org/tutorials/seq2seq)
+	* [Sequence To Sequence with Neural Networks](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
 	* [Inspirational code](https://github.com/ematvey/tensorflow-seq2seq-tutorials/blob/master/1-seq2seq.ipynb)
